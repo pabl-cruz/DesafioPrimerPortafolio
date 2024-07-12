@@ -71,3 +71,7 @@ ol, ul{
 .carousel-indicators [data-bs-target]{
   background-color: $midnightblue;
 }
+
+.carousel-indicators{
+  bottom: -25px;
+}

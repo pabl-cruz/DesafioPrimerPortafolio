@@ -8335,6 +8335,10 @@ ol, ul {
   background-color: #050c2c;
 }
 
+.carousel-indicators {
+  bottom: -25px;
+}
+
 * {
   list-style: none;
 }
@@ -8374,4 +8378,7 @@ ol, ul {
 }
 .contact__list--point {
   color: #f3501e;
+}
+.contact__icon {
+  margin-right: 0.75rem;
 }/*# sourceMappingURL=main.css.map */
