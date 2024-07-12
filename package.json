@@ -1,5 +1,19 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.3"
-  }
+  },
+  "name": "desafio-portafolio",
+  "version": "1.0.0",
+  "description": "Desafio Primer portafolio Bootcamp Desafio Latam",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "DesafioPrimerPortafolio"
+  },
+  "author": "Pablo Cruz Salinas",
+  "license": "ISC"
 }
