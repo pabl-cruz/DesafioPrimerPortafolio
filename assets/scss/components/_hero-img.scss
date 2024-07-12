@@ -3,3 +3,11 @@
     width: 75%;
   }
 }
+
+@media screen and (max-width: 768px){
+  .hero{
+    &__imgcontainer{
+      text-align: center;
+    }
+  }
+}

@@ -3,7 +3,6 @@
 
 // 2. Include any default variable overrides here
 
-
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/variables-dark";
@@ -36,4 +35,39 @@
 
 a{
   text-decoration: none;
+}
+
+ol, ul{
+  padding: 0;
+}
+
+.form-control{
+  background-color: $white;
+  &:focus{
+    background-color: $white;
+  }
+}
+
+.bg-dark{
+  background-color: $midnightblue!important;
+}
+
+
+.carousel-control{
+  &-prev, &-next{
+    bottom: -110px;
+    &-icon{
+      background-color: $boldorange;
+    }
+  }
+  &-prev{
+    left: -66px;
+  }
+  &-next{
+    right: -66px;
+  }
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: $midnightblue;
 }
