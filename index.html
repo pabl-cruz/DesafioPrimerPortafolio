@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/pcruz-logo.png" type="image/x-icon">
+  <meta name="author" content="Pablo Cruz Salinas">
+  <meta name="description" content="Desafio Mi Primer Portafolio para bootcamp programacion front-end Desafio Latam">
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<!--font awesome-->
+<script
+src="https://kit.fontawesome.com/7888b3c04e.js"
+crossorigin="anonymous"
+></script>
+<!--estilos locales-->
+<link rel="stylesheet" href="assets/css/main.css">
+  <title>Pablo Cruz - Portafolio</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme='dark'>
+      <div class="container">
+        <img class="navbar-brand" src="assets/img/pcruz-logo.png" alt="Logo Pablo Cruz">
+        <a class="navbar-brand" href="#"><strong>Pablo Cruz</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Mis Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <section id="hero" class="hero row">
+      <div class="col-12 col-md-6">
+        <figure class="img-fluid">
+          <img src="assets/img/pcruz-logo.png" alt="Logo Pablo Cruz">
+        </figure>
+      </div>
+      <div class="col-12 col-md-6 p-5">
+        <h1 class="text-right">Hola! Soy Pablo Cruz</h1>
+        <h2 class="py-2 text-right">Desarrollador y Diseñador Web</h2>
+        <p class="py-4 text-right">lorem ipsum dolor sit amet wselñkrftjwe ojwei werjf oikrweu oihjtwril uhtjerw uitgh3eluihewi jrweh iklujh elwyhgweril uh42kol uytghaerliu h4r uhtileruhgujartn liuj53h rweuihftp34WUHGAILERU HTUILAER HVUILER IURHGUILRWEHGIUASJG HJLKAERHHG lhiu r</p>
+        <a href="#contact" class="btn btn-primary">Escríbeme para un proyecto</a>
+      </div>
+    </section>
+    <section id="skills">
+      <h2 class="text-center mb-4">Mis habilidades</h2>
+      <div class="container">
+          <ul class="row">
+            <li class="col-6 col-lg">HTML</li>
+            <li class="col-6 col-lg">CSS</li>
+            <li class="col-6 col-lg">Sass</li>
+            <li class="col-6 col-lg">Bootstrap</li>
+            <li class="col-6 col-lg">Git</li>
+            <li class="col-6 col-lg">Github</li>
+            <li class="col-6 col-lg">JavaScript</li>
+            <li class="col-6 col-lg">Vue</li>
+          </ul>
+      </div>
+    </section>
+    <section id="works">
+      <h2 class="text-center mb-4">Mis Proyectos</h2>
+      <div id="carouselWorks" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselWorks" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselWorks" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+                <img src="assets/img/slider-1.png" class="d-block col-3" alt="champiñones">
+            <img src="assets/img/slider-2.png" class="d-block col-3" alt="pizza">
+            <img src="assets/img/slider-3.png" class="d-block col-3" alt="masa">
+            <img src="assets/img/slider-4.png" class="d-block col-3" alt="armando pizza">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+                <img src="assets/img/slider-5.png" class="d-block col-3" alt="pizza con masa">
+            <img src="assets/img/slider-6.png" class="d-block col-3" alt="pizza con ingredientes">
+            <img src="assets/img/slider-7.png" class="d-block col-3" alt="pizza en detalle">
+            <img src="assets/img/slider-8.png" class="d-block col-3" alt="pizza con ingredientes 2">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section id="contact" class="container">
+      <h2 class="text-center mb-4">Contactame</h2>
+      <div class="row">
+        <form action="" class="col-12 col-md-6">
+          <div class="row mb-3">
+            <div class="col-6"><input type="text" name="nombre" class="form-control" placeholder="Nombre"></div>
+            <div class="col-6"><input type="text" name="apellido" class="col-6 form-control" placeholder="Apellido"></div>
+          </div>
+        <div class="my-3">
+          <input type="email" name="email" class="form-control col-12" placeholder="Tu Email">
+        </div>
+        <div class="my-3">
+          <textarea name="message" class="col-12 form-control" height="5vh;" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+        <div class="my-3">
+          <input type="submit" class="btn my-3 btn-primary" value="Enviar">
+        </div>
+      </form>
+      <div class="col-12 col-md-6">
+        <ul>
+          <li>+56 9 00000000</li>
+          <li><a href="emailto:pablo.cruz2497@gmail.com"><i class="fa-solid fa-phone mr-2"></i>pablo.cruz2497@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/pablo-cruz-salinas"><i class="fa-solid fa-envelope mr-2"></i> LinkedIn</a></li>
+          <li><a href="https://github.com/pabl-cruz"><i class="fa-brands fa-github mr-2"></i> Mi perfil de GitHub</a></li>
+          <li><a href="https://instagram.com"><i class="fa-brands fa-instagram mr-2"></i> Mi perfil de Instagram</a></li>
+        </ul>
+      </div>
+      </div>
+    </section>
+  </footer>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
